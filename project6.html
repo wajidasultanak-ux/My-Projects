@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Registration Form</title>
+    <style>
+      html
+      {
+        background-color: rgb(238, 28, 133);
+        color: #0f0a0f;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+    <form action="./server.html" autocomplete="" method="dialog">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="">fname</label></td>
+            <td>
+              <input
+                type="text"
+                name="fname"
+                value=""
+                placeholder="ex:Wajida"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="surname">Surname</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="surname"
+                value=""
+                placeholder="ex:Sultana"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mobnum">Mobile Number</label>
+            </td>
+            <td>
+              <input
+                type="tel"
+                name="Mobile Number"
+                value=""
+                placeholder="ex:1234567890"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+              <input
+                type="email"
+                name="Email"
+                value=""
+                placeholder="ex:dyhalkjb@gmail.com"
+                required
+              />
+              <br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" name="Password" value="" required /><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Confirm Password</label></td>
+            <td>
+              <input
+                type="password"
+                name="Confirm Password"
+                value=""
+                required
+              /><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td>
+              <input type="date" name="Date of Birth" value="" required /><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="age">Age</label></td>
+            <td>
+              <input
+                type="number"
+                name="Age"
+                value=""
+                min="18"
+                max="65"
+                required
+              /><br />
+            </td>
+          </table>
+          <tr>
+            <td>
+              <label for="gender">Gender</label>
+              <input type="radio" name="gender" value="Gender" />
+              <label>Male</label>
+              <input type="radio" name="gender" value="Gender" />
+              <label>FEMALE </label>
+              <input type="radio" name="gender" value="Gender" />
+              <label>OTHERS </label>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td><label for="selection">SELECT COUNTRY</label></td>
+            <td>
+              <select name="" id="">
+                <option value="India">India</option>
+                <option value="Korea" selected>Korea</option>
+                <option value="USA">USA</option>
+              </select>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>
+              <label for="upload">UPLOAD FILE</label>
+            </td>
+            <td><input type="file" name="upload" value="" /></td>
+            <br />
+          </tr>
+        </table>
+      </fieldset>
+      <textarea name="feedback" placeholder="please add feedback"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
+<!--http://127.0.0.1:5500/registrationform.html?fname=Wajida&surname=Sultana&Mobile+Number=6302191769&Email=frozen0204%40gmail.com&Password=hdbcwshd&Confirm+Password=jfdnvhsn&Date+of+Birth=2002-04-02&Age=24&gender=Gender&upload=&feedback=-->
+
+

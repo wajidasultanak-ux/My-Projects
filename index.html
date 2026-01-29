@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Mastery Website</title>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: darkblue;
+      }
+
+      a:hover {
+        color: red;
+      }
+      .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 30px;
+      }
+
+      .project-card {
+        border: 2px solid gray;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #111;
+        color: white;
+        text-align: left;
+      }
+
+      .project-card h3 {
+        color: lightgray;
+        margin-bottom: 5px;
+      }
+
+      .project-card a {
+        color: skyblue;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .project-card a:hover {
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ✅ Navigation Bar -->
+    <table width="100%" cellpadding="15" cellspacing="0" border="1">
+      <tr>
+        <td width="30%">
+          <h3>Website Built by Wajida</h3>
+        </td>
+
+        <td align="right">
+          <a href="#about">About</a> &nbsp;&nbsp;&nbsp;
+          <a href="#importance">Why HTML?</a> &nbsp;&nbsp;&nbsp;
+          <a href="#projects">Projects</a> &nbsp;&nbsp;&nbsp;
+          <a href="#trainer">Trainer</a> &nbsp;&nbsp;&nbsp;
+          <a href="#location">Location</a> &nbsp;&nbsp;&nbsp;
+          <a href="#playlist">Playlist</a>
+        </td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <!-- ✅ Hero Section -->
+    <center>
+      <h1>🚀 Welcome to My Website</h1>
+      <h3>Master HTML with Tap Academy</h3>
+
+      <p>
+        This is a simple multi-section website created using only HTML.<br />
+        Learn and build real-world projects step by step.
+      </p>
+
+      <a href="#projects">👉 View My Projects</a> &nbsp;&nbsp;&nbsp;
+      <a href="#importance">📌 Why Learn HTML?</a>
+    </center>
+
+    <hr />
+    <hr />
+
+    <!-- ✅ Stats Section -->
+    <center>
+      <table width="60%" cellpadding="20" cellspacing="5" border="2">
+        <tr>
+          <th width="33%">5+</th>
+          <th width="33%">100%</th>
+          <th width="33%">∞</th>
+        </tr>
+        <tr>
+          <td align="center">Projects Built</td>
+          <td align="center">Pure HTML</td>
+          <td align="center">Possibilities</td>
+        </tr>
+      </table>
+    </center>
+
+    <br /><br />
+
+    <!-- ✅ About Section -->
+    <a name="about"></a>
+    <center>
+      <h2>📖 ABOUT THE COURSE</h2>
+    </center>
+
+    <table
+      width="80%"
+      cellpadding="10"
+      cellspacing="5"
+      border="1"
+      align="center"
+    >
+      <tr>
+        <td>
+          <h3>HyperText Markup Language</h3>
+          <p>
+            HTML is the backbone of every website on the internet. It defines
+            the structure and layout of web pages.
+          </p>
+
+          <p>At Tap Academy, you will learn HTML by doing hands-on projects.</p>
+        </td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <!-- ✅ Importance Section -->
+    <a name="importance"></a>
+    <center>
+      <h2>⭐ WHY LEARN HTML?</h2>
+    </center>
+
+    <ul>
+      <li>HTML is the foundation of Web Development</li>
+      <li>It helps you build websites easily</li>
+      <li>Required for Frontend + Full Stack</li>
+    </ul>
+
+    <hr />
+
+    <!-- ✅ Projects Section -->
+    <a name="projects"></a>
+    <center>
+      <h2>💻 MY PROJECTS</h2>
+    </center>
+    <h2 align="center">💻 My HTML Projects</h2>
+    <p align="center">
+      Explore the projects I built during my learning journey
+    </p>
+
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <h4>Multimedia Blog</h4>
+        <p>A webpage using images, audio, video, and iframe tags.</p>
+        <a href="./project1.html" target="_blank">🔗 View Project</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <h4>Life & Skills Portfolio</h4>
+        <p>A personal portfolio website with sections and navigation.</p>
+        <a href="./project2.html" target="_blank">🔗 View Project</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <h4>Developer Portfolio</h4>
+        <p>A developer-style resume portfolio webpage using HTML.</p>
+        <a href="./project3.html" target="_blank">🔗 View Project</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <h3>Project 4</h3>
+        <h4>Iframe (Video, Website, Maps)</h4>
+        <p>A webpapge in webpage using HTML.</p>
+        <a href="./project4.html" target="_blank">🔗 View Project</a>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card">
+        <h3>Project 5</h3>
+        <h4>Programming Table</h4>
+        <p>A table showing famous inventors and programming languages.</p>
+        <a href="./project5.html" target="_blank">🔗 View Project</a>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card">
+        <h3>Project 6</h3>
+        <h4>Registration Form</h4>
+        <p>A course registration form using input, fieldset, legend.</p>
+        <a href="./project6.html" target="_blank">🔗 View Project</a>
+      </div>
+    </div>
+    <br /><br />
+
+    <!-- ✅ Trainer Section -->
+    <a name="trainer"></a>
+    <center>
+      <h2>👨‍🏫 TRAINER</h2>
+      <p>This project is inspired by Tap Academy HTML Training Classes.</p>
+    </center>
+
+    <hr />
+
+    <!-- ✅ Location Section -->
+    <a name="location"></a>
+    <center>
+      <h2>📍 LOCATION</h2>
+      <p>Anantapur, Andhra Pradesh, India</p>
+    </center>
+
+    <hr />
+
+    <!-- ✅ Playlist Section -->
+    <a name="playlist"></a>
+    <center>
+      <h2>🎵 MY PLAYLIST</h2>
+
+      <p>Here are some useful learning links:</p>
+
+      <a href="https://www.w3schools.com/html/" target="_blank">
+        Learn HTML - W3Schools
+      </a>
+      <br /><br />
+
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+        target="_blank"
+      >
+        HTML Documentation - MDN
+      </a>
+    </center>
+
+    <hr />
+
+    <!-- ✅ Footer -->
+    <center>
+      <h3>✅ Website Created by Wajida Sultana</h3>
+      <p>Thank you for visiting 😊</p>
+    </center>
+  </body>
+</html>
